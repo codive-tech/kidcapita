@@ -1,0 +1,70 @@
+.warning {
+    border: 3px solid var(--gold) !important;
+}
+
+.warning p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* Pricing styles for Programs page */
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-lg);
+}
+
+.pricing-card {
+    background-color: var(--white);
+    border: 2px solid var(--silver);
+    border-radius: 12px;
+    padding: var(--spacing-lg);
+    text-align: center;
+    transition: var(--transition);
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-card.featured {
+    border-color: var(--gold);
+    border-width: 3px;
+}
+
+.pricing-badge {
+    background-color: var(--gold);
+    color: var(--black);
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: var(--spacing-sm);
+}
+
+.pricing-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: var(--spacing-xs);
+}
+
+.pricing-age {
+    color: #666;
+    margin-bottom: var(--spacing-md);
+}
+
+.pricing-amount {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--gold);
+    margin: var(--spacing-md) 0;
+}
+
+.pricing-currency {
+    font-size: 1.2rem;
+    color: #666;
+    display: block;
+    margin-top: var(--spacing-xs);
+}
+

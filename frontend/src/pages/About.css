@@ -1,0 +1,56 @@
+.page-hero {
+    background: linear-gradient(135deg, var(--black) 0%, #1a1a1a 100%);
+    color: var(--white);
+    padding: 100px var(--spacing-md) 80px;
+    text-align: center;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission-text {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+.story-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.story-content p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.story-content ul {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 2;
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.story-content ul li {
+    list-style: disc;
+}
+
+.value-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .page-hero {
+        padding: 80px var(--spacing-sm) 60px;
+        min-height: 300px;
+    }
+}
+
